@@ -1,0 +1,270 @@
+/** Import Fonts **/
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+/** Defining fonts **/
+
+@font-face {
+    font-family: 'First Order';
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf')
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBold%20Regular.otf')
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf')
+}
+
+@font-face {
+    font-family: 'JSL Ancient';
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/jancieni.ttf')
+}
+
+@font-face {
+    font-family: 'Poison Hope';
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
+}
+
+/** Fonts END  **/
+
+body {
+    font-family: Athelas;
+    background: url('../images/sotdl_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1.title {
+    background-image: url(../images/header-banner.png);
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0px -65px 0px -65px;
+}
+
+h1.title span {
+    font-family: "First Order";
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+    left: 20%;
+    bottom: 5px;
+}
+
+h2.title {
+    font-family: Athelas;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    text-transform: none;
+}
+
+h1+p::first-letter {
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    text-align: left;
+    color: #9C0719;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+h3 {
+    border-bottom-style: none;
+    font-size: 18pt;
+}
+
+h4 {
+    font-size: 13pt;
+}
+
+h5 {
+    font-size: 12pt;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1.1px;
+}
+
+h6 {
+    font-size: 10pt;
+    border-bottom-style: solid;
+    border-bottom-color: #9C0719;
+    border-bottom-width: 1.1px;
+}
+
+p, li, ol {
+    font-family: 'Athelas';
+    font-size: 11pt;
+    text-align: left;
+}
+
+p strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: #9C0719;
+    letter-spacing: -0.02em;
+}
+
+p ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: #9C0719;
+    letter-spacing: -0.02em;
+}
+
+p ul li ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: #000000;
+    letter-spacing: -0.02em;
+}
+
+/* Tables */
+
+table thead th {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "GothamBook";
+    font-size: 8pt;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+table tbody tr {
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: initial;
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fff;
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+table tbody tr td {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+}
+
+table tbody tr td ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+table tbody tr td li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: #000000;
+}
+
+table tbody tr td strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 8pt;
+    color: #000000;
+}
+
+table strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+}
+
+/*** Tables END ***/
+
+strong em, em strong {
+    color: #9C0719;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.descriptive {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.descriptive h5 {
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
+.footnote {
+    color: #222;
+    font-family: "First Order";
+    font-size: 2.5em;
+    width: 100%;
+    bottom: 0px;
+}
+
+.html-code code {
+    visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+hr {
+    /* visibility: visible; */
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+ul strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+
+ul li ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
