@@ -1,3 +1,5 @@
+<link rel = "stylesheet" type = "text/css" href = "https://github.com/RoninRa/homebrew-sotdl/blob/master/assets/css/stylesheet.css" />
+
 # Shadow of the Demon Lord Homebrew
 A repository for any homebrews, hacks and house rules made for the RPG Shadow of the Demon Lord by Schwalb Entertainment.
 
